@@ -32,7 +32,7 @@ function play(playerChoice,compChoice){
 }
 
 function game(guess){
-    for(let i=0;i<=5;i++){
+    for(let i=0;i<5;i++){
         console.log(play(guess,getComputerChoice()))
     }
 }
