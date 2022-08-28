@@ -1,8 +1,8 @@
-// create a function called getComputerChoice
+// create a function called getComputerChoice to get random choice 
 let wincount=0
 let losecount=0
 function getComputerChoice(){
-    let choice=["rock","paper",'scissor']
+    const choice=["rock","paper",'scissor']//let changed to const 
    return choice[Math.floor(Math.random()*3)]  
 }
 // create a function to play rock paper scissor
