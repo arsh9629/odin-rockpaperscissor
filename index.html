@@ -5,9 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
-    <script src="./script.js"></script>
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="./style.css">
 </head>
-<body>
-    
+<body>  
+<div class="container">
+    <div class="images">
+      <img class='rock' src="./rock.jpeg" >
+      <img class="paper" src="./paper.jpeg" >
+      <img class="scissor" src="./scissors.jpeg" >
+    </div>
+
+    <div class="output">
+        <p class="status">Start</p>
+        <div>
+        <span>Win  Count:</span>
+        <p class="win"></p>
+        </div>
+        <div>
+        <span>Lose Count:</span>
+        <p class="lose"></p>
+        </div>    
+    </div>
+    <button class="reset">Reset</button>
+</div>
+
 </body>
 </html>
